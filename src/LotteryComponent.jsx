@@ -20,12 +20,12 @@ function LotteryComponent() {
 
     return (
         <div className="lottery-container">
-            <h1 className='heading'>Lottery</h1>
+            <h1 className='heading'>Welcome to the Lottery Draw!</h1>
             
             <h1 className={className}>{result}</h1>
-            <p>Current Lottery Number: {count}</p>
+            <p>Current Ticket Number: {count}</p>
             <button onClick={() => setCount(Math.floor(Math.random() * 1000))}>
-                Get New Ticket
+                Get My Ticket
             </button>
         </div>
     );
